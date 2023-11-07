@@ -23,7 +23,7 @@ const Header = () => {
   );
 };
 
-const RestaurentCard = ({ props }) => {
+const RestaurentCard = ( props ) => {
   const { rescard } = props;
   const {
     name,
@@ -34,7 +34,7 @@ const RestaurentCard = ({ props }) => {
     address,
   } = rescard?.data;
 
-  console.log(data);
+   console.log(rescard?.data);
   return (
     <div className="cards">
       <img
